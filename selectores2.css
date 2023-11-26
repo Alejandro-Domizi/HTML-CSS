@@ -1,0 +1,31 @@
+/* div p {
+    color: chartreuse;
+}
+
+.p1 {
+    color: aqua;
+} */
+
+div {
+    background: grey;
+}
+
+div > div {
+    background: burlywood;
+}
+
+.h {
+    background: rgb(230, 0, 255);
+}
+
+div + div +div{
+    background: red;
+}
+
+div + div +div ~ p{
+    background: rgb(43, 255, 0);
+}
+
+.p1 {
+    background: pink;
+}
